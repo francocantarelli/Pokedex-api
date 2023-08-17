@@ -16,8 +16,7 @@ searchButton.addEventListener("click", async () => {
     const html = `
       <img src="${imagenPokemon}" alt="${nombrePokemon}">
       <h2>${nombrePokemon}</h2>
-      <p><strong>Número: </strong> ${numeroPokemon} </p>
-      <p><strong>Tipo: </strong> ${tipos} </p>
+      <p><strong>Número: </strong> ${numeroPokemon} ‎ ‎ <strong>Tipo: </strong> ${tipos} </p>
     `;
     
     pokemonInfo.innerHTML = html;
